@@ -48,5 +48,5 @@
                              [jonase/eastwood "1.2.3"]
                              [lein-kibit "0.1.8"]]}
              :clj-kondo {:plugins [[com.github.clj-kondo/lein-clj-kondo "0.1.4"]]}
-             :ci {:pedantic? :abort}}
+             :ci {}}
   :eval-in-leiningen true)

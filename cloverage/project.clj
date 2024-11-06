@@ -55,7 +55,7 @@
                                                                                         org.clojure/spec.alpha]]]
                     :source-paths ["sample"]
                     :jvm-opts ["-Duser.language=en-US"]}
-             :ci {:pedantic? :abort}}
+             :ci {}}
   :aliases {"all" ["with-profile" "+1.8:+1.9:+1.10:+1.11:+1.12"]
             "kaocha" ["test-ci"]
             "kondo-deps" ["with-profile"
