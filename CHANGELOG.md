@@ -10,6 +10,7 @@ in github. Commentary on the change should appear as a nested, unordered list. -
 ## 1.2.5
 
 - Option to set thresholds separately for line and form coverage
+  - Fixes [#344](https://github.com/cloverage/cloverage/issues/344)
 - Fix `[:runner-opt :report]` in the eftest runner
   - Fixes [#328](https://github.com/cloverage/cloverage/issues/328)
 - Add support for Clojure 1.12
